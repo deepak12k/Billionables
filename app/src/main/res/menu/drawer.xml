@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/location"
+            android:checked="true"
+            android:color="#000"
+
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile"
+            android:checked="false"
+            android:color="#000"
+            android:icon="@mipmap/ic_person_black_24dp"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/location1"
+            android:checked="false"
+            android:color="#000"
+            android:icon="@mipmap/ic_place_black_24dp"
+
+            android:title="Location" />
+
+
+        <item
+            android:id="@+id/search"
+            android:checked="false"
+            android:color="#000"
+            android:icon="@mipmap/ic_search_black_24dp"
+            android:title="Filter" />
+        <item
+            android:id="@+id/access"
+            android:checked="false"
+            android:color="#000"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="Accessibilty" />
+        <item
+            android:id="@+id/wish"
+            android:checked="false"
+            android:color="#000"
+            android:icon="@mipmap/ic_favorite_black_24dp"
+            android:title="Favourites" />
+
+        <item
+            android:id="@+id/share"
+            android:checked="false"
+            android:color="#000"
+            android:icon="@mipmap/ic_share_black_24dp"
+            android:title="Share" />
+
+    </group>
+</menu>
